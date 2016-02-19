@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>.::CONSONANTES::.</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	function vocal() {
+		almacen = document.getElementById("caja").value;
+
+	var contar = almacen.replace(/[^b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z,B,C,D,F,G,H,J,K,L,M,N,P,Q,R,S,T,V,W,X,Y,Z]/g, '');
+	alert("El numero de vocales es: "+ contar.length)
+
+}
+	</script>
+	<h1>CONTANDO CONSONANTES...</h1>
+
+	<input type="text" id="caja">
+
+	<input type="submit" value="enviar" onClick="vocal();">
+		
+	
+</body>
+</html>

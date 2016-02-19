@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+ <head>
+ <meta charset="UTF-8">
+ <title>.::CAPICUA::.</title>
+  <script>
+
+
+     //orden inverso.
+    String.prototype.reverse=function(){return this.split("").reverse().join("");}
+
+   function test(num) {
+    var inversodNum = num.reverse();
+    if (num == inversodNum) {
+     alert("El numero '"+num+"'  es capícua");
+     return(true);
+    }
+    else {
+     alert("La numero '"+num+"' NO es capícua: '"+inversodNum+"'");
+     return(false);
+    } 
+   } 
+  </script>
+ </head>
+ 
+ <body>
+ <h1>NUMEROS CAPICUA</h1>
+  <input type="text" placeholder="Introducir palabra." id="entrada" />
+  <input type="button" onclick="test(document.getElementById('entrada').value)" value="Comprobar"/>
+ </body>
+</html>
+ 
+

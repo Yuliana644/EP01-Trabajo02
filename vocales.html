@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>.::VOCALES::.</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	function vocal() {
+		almacen = document.getElementById("caja").value;
+
+	var contar = almacen.replace(/[^a,e,i,o,u,A,E,I,O,U]/g, '');
+	alert("El numero de vocales es: "+ contar.length)
+
+}
+	</script>
+	<h1>CONTANDO VOCALES SIN ACENTO...</h1>
+
+	<input type="text" id="caja">
+
+	<input type="submit" value="enviar" onClick="vocal();">
+		
+	
+</body>
+</html>
