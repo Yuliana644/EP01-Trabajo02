@@ -45,8 +45,6 @@ window.onload = function()
                             }
         };
 
-        console.log(respuestaMatriz);
-               
                 for(var i = 0; i < mathSquare.length - 1; i++)
                 {
                     if(i % 2 === 0)
@@ -79,13 +77,8 @@ window.onload = function()
                     b = eval(vOperacion.vertical);
                     c = respuesta.horizontal.ecuacion;
                     d = eval(respuesta.vertical.ecuacion);
-
-                    console.log(a + "\n" + c /* + " " + c + " " + d*/ );
-                    
-
                 }
 
-                
             }
 
             if (a>=c) 
@@ -107,12 +100,6 @@ window.onload = function()
    
                         nom_div(respuesta.horizontal.div).style.background = color? "green" : "red";
                         nom_div(respuesta.vertical.div).style.background = colorv? "green" : "red"; 
-
-
-
-
-
-
     };
 
     var eventosInputs = function()
