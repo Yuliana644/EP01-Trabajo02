@@ -1,0 +1,52 @@
+h1{
+	text-align: center;
+	font-size: 2em;
+	font-family: Arial black;
+
+}
+#cont
+{
+	border: 1px solid black;
+	width: 396.5px;
+	height: 396.5px;
+	display: block;
+	margin: 0px auto;
+}
+
+.int
+{
+	height: 97px;
+	width: 97.1px;
+	border: 1px solid black;
+	display: inline-block;
+	margin:0px;
+	float: left;
+}
+
+#btn-iniciar{
+ border: none;
+ background: #000;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ display: block;
+ margin: 20px auto;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+
+
+}
+
+#btn-iniciar:hover{
+background: rgba(0,0,0,0);
+ color: #000;
+ box-shadow: inset 0 0 0 3px #000;
+
+}
+
+#reloj
+{
+	font-size: 3em;
+	font-family: Arial black;
+}
